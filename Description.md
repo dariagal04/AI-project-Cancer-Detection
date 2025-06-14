@@ -1,5 +1,5 @@
-#Breast Cancer Identification
-##Problem Definition
+# Breast Cancer Identification
+## Problem Definition
 What is given?
 A dataset consisting of mammographic breast images obtained through medical imaging techniques (X-rays), labeled according to diagnosis:
 → presence or absence of a tumor
@@ -15,7 +15,7 @@ An AI model can analyze mammograms much faster and more accurately than manual e
 
 An efficient AI system could serve as an assistant for radiologists, providing a fast and objective second opinion. This reduces the pressure on doctors, shortens diagnosis time, and ensures that more cases are accurately analyzed.
 
-##Input Data Analysis – MIAS
+## Input Data Analysis – MIAS
 What type of data do we have?
 Using the MIAS dataset, we are working with a data type composed of mammographic images in PGM format (grayscale images) and an associated CSV file containing descriptive information for each image: each row in the file corresponds to an image and includes the image ID, lesion type, classification (benign or malignant), lesion location in the image (X, Y coordinates), its size, as well as the BI-RADS score in some cases.
 
